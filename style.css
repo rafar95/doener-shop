@@ -258,3 +258,40 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+/* MENU SECTION */
+
+#menu-section {
+    position: relative;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.doener {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.falafel {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.pide {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.burek {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.pizza {
+    text-align: center;
+    font-size: 2rem;
+}
