@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafa's</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Rafa's</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#experience">Menü</a></li>
+                <li><a href="#projects">Unser Team</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Chicco's</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#experience" onclick="toggleMenu()">Menü</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Unser Team</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Kontakt</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/shopfront.webp" alt="shopfront picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Herzlich willkommen bei</p>
+            <h1 class="title">Rafa's</h1>
+            <p class="section__text__p2">Döner & More</p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'"
+                >Menü
+               </button>
+                 <button 
+                 class="btn btn-color-1" 
+                 onclick="location.href='./#contact'"
+                 >Kontakt
+                </button>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>
