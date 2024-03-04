@@ -263,6 +263,7 @@ section {
 
 #menu-section {
     position: relative;
+    margin-top: -4rem;
 }
 
 .menu-title {
