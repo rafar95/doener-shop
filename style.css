@@ -9,6 +9,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #393e46;
 }
 
 html {
@@ -24,6 +25,12 @@ p {
 a, 
 .btn {
     transition: all 300ms ease;
+}
+
+/* TITLE */
+
+.title {
+    color: #ffc93c;
 }
 
 /* DESKTOP NAV */
@@ -109,7 +116,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -169,14 +176,18 @@ section {
     height: 80vh;
 }
 
-.section__pic-container {
+.start_pic-container {
     display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
+    img {
+        width: 300px;
+        height: 300px;
+    }
 }
 
-.section__text {
+.section_text {
     align-self: center;
     text-align: center;
 }
@@ -187,23 +198,20 @@ section {
 
 .section__text__p1 {
     text-align: center;
+    color: #ffc93c;
 }
 
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    text-align: center;
+    color: #ffc93c;
 }
 
-.title {
+.title_profile {
     font-size: 3rem;
     text-align: center;
-}
-
-#socials-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    gap: 1rem;
+    color: #ffc93c;
 }
 
 /* ICONS */
@@ -219,6 +227,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: 4rem;
 }
 
 .btn {
