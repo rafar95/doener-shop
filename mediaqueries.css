@@ -36,9 +36,10 @@
     #footer-section {
         height: 40vh;
     }
-    #profile {
+    #profile-section {
         height: 83vh;
         margin-bottom: 0;
+        display: flex;
     }
     .menu_section_box{
         flex-direction: column;
@@ -79,5 +80,53 @@
     }
     .menu_pizza {
         margin-left: 0%;
+    }
+    .center_pic {
+        display: block;
+        width: 300px;
+        height: 300px;
+    }
+    .desktop_pic {
+        display: none;
+    }
+    .pizza_ueberschrift {
+        color: #ffc93c;
+        margin-top: 3%;
+    }
+    
+    .pizza {
+        color: white;
+        font-size: large;
+    }
+    
+    .pizza_last {
+        margin-bottom: 3%;
+        color: white;
+        font-size: large;
+    }
+    .menu_pizza {
+        text-align: center;
+        border-style: groove;
+        border-width: 2px;
+        border-radius: 15px;
+        border-color: #ffc93c;
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        flex: 1;
+    }
+    #team-section {
+        justify-content: center;
+        gap: 5rem;
+        height: 80vh;
+        min-height: 500px;
+        margin-bottom: -3rem;
+    }
+    .essen{
+        font-size: large;
+    }
+    .essen_last {
+        font-size: large;
     }
 }

@@ -99,7 +99,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #ffc93c;
+    background-color: #515863;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -156,10 +156,6 @@ section {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-}
-
-.section-container {
-    display: flex;
 }
 
 /* PROFILE SECTION */
@@ -325,10 +321,12 @@ section {
 .extra_ueberschrift {
     margin-top: 3%;
     color: #ffc93c;
+    font-size: xx-large;
 }
 
 .extra {
     color: white;
+    font-size: x-large;
 }
 
 .menu_ueberschrift {
@@ -342,36 +340,43 @@ section {
 }
 
 .essen {
-    color: white; 
+    color: white;
+    font-size: x-large;
 }
 
 .essen_ueberschrift {
     margin-top: 3%;
     color: #ffc93c;
+    font-size: xx-large;
 }
 
 .pizza_ueberschrift {
     color: #ffc93c;
     margin-top: 3%;
+    font-size: xx-large;
 }
 
 .pizza {
     color: white;
+    font-size: x-large;
 }
 
 .pizza_last {
     margin-bottom: 3%;
     color: white;
+    font-size: x-large;
 }
 
 .extra_last {
     margin-bottom: 3%;
     color: white;
+    font-size: x-large;
 }
 
 .essen_last {
     margin-bottom: 3%;
     color: white;
+    font-size: x-large;
 }
 
 /* TEAM SECTION */
@@ -386,15 +391,28 @@ section {
 }
 
 #team-section {
-    margin: 10%;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    min-height: 500px;
+    margin-bottom: -55rem;
 }
 
 .center_pic {
     margin-top: 2rem;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+
+.desktop_pic {
+    margin-top: 2rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
 
 .team {
@@ -405,10 +423,44 @@ section {
     line-height: 180%;
 }
 
+/* OPENING HOURS */
+
+#oeffnungs-section {
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    min-height: 500px;
+}
+
+.oeffnungszeiten {
+    display: grid;
+    grid-template-columns: 80px 100px;
+    grid-template-rows: 80px 80px;
+    place-content: center;
+}
+
+.zeit_ueberschrift {
+    text-align: center;
+    color: #ffc93c;
+    font-size: xx-large;
+    margin-bottom: 2rem;
+    margin-top: 50%;
+}
+
+.zeit_text {
+    color: white;
+    font-size: large;
+}
+
+.oeffnung-section {
+    margin-bottom: 1rem;
+}
+
 /* FOOTER SECTION */
 
 #footer-section {
     min-height: fit-content;
+    margin-bottom: 3rem;
 }
 
 .ende {
@@ -424,8 +476,13 @@ section {
 
 .footer_ueberschrift {
     color: #ffc93c;
+    margin-top: 3rem;
 }
 
 .footer_text {
+    color: white;
+}
+
+.footer_text_bottom {
     color: white;
 }
