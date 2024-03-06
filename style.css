@@ -47,16 +47,16 @@ nav {
 }
 
 a {
-    color: black;
+    color: #ffc93c;
     text-decoration: none;
     text-decoration-color: white;
 }
 
 a:hover {
-    color: grey;
+    color: rgb(240, 145, 4);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181,181,181);
+    text-decoration-color: rgb(240, 145, 4);
 }
 
 .logo {
@@ -169,6 +169,7 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    min-height: 500px;
 }
 
 .start_pic-container {
@@ -282,6 +283,14 @@ section {
 #menu-section {
     position: relative;
     margin-top: -4rem;
+    text-align: center;
+    min-height: fit-content;
+    margin: 10%;
+}
+
+.menu_ueberschrift {
+    color: #ffc93c;
+    font-size: 40px;
 }
 
 .menu-title {
@@ -321,9 +330,38 @@ section {
     border-style: groove;
     border-width: 2px;
     border-radius: 15px;
-    border-color: black;
+    border-color: #ffc93c;
     margin-top: 1rem;
     margin-bottom: 10rem;
+    padding: 1.5rem;
+}
+.essen {
+    color: white; 
+}
+
+.essen_ueberschrift {
+    color: #ffc93c;
+}
+
+.menu_pizza {
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: #ffc93c;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+
+.pizza_ueberschrift {
+    color: #ffc93c;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.pizza {
+    color: white;
+    font-size: 20px;
 }
 
 .center_pic {
@@ -355,4 +393,12 @@ section {
 
 .team-ueberschrift {
     font-size: 35px;
+}
+
+#team-section {
+    margin: 10%;
+}
+
+#footer-section {
+    min-height: fit-content;
 }
