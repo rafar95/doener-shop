@@ -293,8 +293,8 @@ section {
     border-color: #ffc93c;
     margin-top: 1rem;
     margin-bottom: 10rem;
+    margin-right: 2.5%;
     flex: 1;
-    margin-right: 5%;
 }
 
 .menu_pizza {
@@ -305,8 +305,30 @@ section {
     border-color: #ffc93c;
     margin-top: 1rem;
     margin-bottom: 10rem;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     flex: 1;
+}
+
+.menu_extra {
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: #ffc93c;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    margin-left: 2.5%;
+    flex: 1;
+}
+
+.extra_ueberschrift {
+    margin-top: 3%;
+    color: #ffc93c;
+}
+
+.extra {
+    color: white;
 }
 
 .menu_ueberschrift {
@@ -324,14 +346,31 @@ section {
 }
 
 .essen_ueberschrift {
+    margin-top: 3%;
     color: #ffc93c;
 }
 
 .pizza_ueberschrift {
     color: #ffc93c;
+    margin-top: 3%;
 }
 
 .pizza {
+    color: white;
+}
+
+.pizza_last {
+    margin-bottom: 3%;
+    color: white;
+}
+
+.extra_last {
+    margin-bottom: 3%;
+    color: white;
+}
+
+.essen_last {
+    margin-bottom: 3%;
     color: white;
 }
 
@@ -361,8 +400,8 @@ section {
 .team {
     border-style: unset;
     text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     line-height: 180%;
 }
 
@@ -380,7 +419,7 @@ section {
 .contact {
     text-align: center;
     margin-top: 15rem;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
 }
 
 .footer_ueberschrift {
