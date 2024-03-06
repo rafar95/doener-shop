@@ -281,48 +281,8 @@ section {
 /* MENU SECTION */
 
 #menu-section {
-    position: relative;
-    margin-top: -4rem;
     text-align: center;
-    min-height: fit-content;
     margin: 10%;
-}
-
-.menu_ueberschrift {
-    color: #ffc93c;
-    font-size: 40px;
-}
-
-.menu-title {
-    text-align: center;
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
-}
-
-.doener {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.falafel {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.pide {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.burek {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.pizza {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 4rem;
 }
 
 .menu {
@@ -333,14 +293,8 @@ section {
     border-color: #ffc93c;
     margin-top: 1rem;
     margin-bottom: 10rem;
-    padding: 1.5rem;
-}
-.essen {
-    color: white; 
-}
-
-.essen_ueberschrift {
-    color: #ffc93c;
+    flex: 1;
+    margin-right: 5%;
 }
 
 .menu_pizza {
@@ -351,17 +305,49 @@ section {
     border-color: #ffc93c;
     margin-top: 1rem;
     margin-bottom: 10rem;
+    margin-left: 5%;
+    flex: 1;
+}
+
+.menu_ueberschrift {
+    color: #ffc93c;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.menu_section_box {
+    display: flex;
+}
+
+.essen {
+    color: white; 
+}
+
+.essen_ueberschrift {
+    color: #ffc93c;
 }
 
 .pizza_ueberschrift {
     color: #ffc93c;
-    font-size: 40px;
-    margin-bottom: 2rem;
 }
 
 .pizza {
     color: white;
-    font-size: 20px;
+}
+
+/* TEAM SECTION */
+
+.team-ueberschrift {
+    font-size: 35px;
+    color: #ffc93c;
+}
+
+.text_team_section {
+    color: white;
+}
+
+#team-section {
+    margin: 10%;
 }
 
 .center_pic {
@@ -380,6 +366,12 @@ section {
     line-height: 180%;
 }
 
+/* FOOTER SECTION */
+
+#footer-section {
+    min-height: fit-content;
+}
+
 .ende {
     text-align: center;
     margin-top: 5rem;
@@ -391,14 +383,10 @@ section {
     margin-bottom: 15rem;
 }
 
-.team-ueberschrift {
-    font-size: 35px;
+.footer_ueberschrift {
+    color: #ffc93c;
 }
 
-#team-section {
-    margin: 10%;
-}
-
-#footer-section {
-    min-height: fit-content;
+.footer_text {
+    color: white;
 }
