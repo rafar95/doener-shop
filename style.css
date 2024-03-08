@@ -332,9 +332,9 @@ section {
 
 .oeffnungszeiten {
     display: grid;
-    grid-template-columns: 80px 100px;
+    grid-template-columns: 100px 160px;
     grid-template-rows: 80px 80px;
-    place-content: center;
+    justify-content: center;
 }
 
 .zeit_ueberschrift {
@@ -342,12 +342,13 @@ section {
     color: #ffc93c;
     font-size: xx-large;
     margin-bottom: 2rem;
-    margin-top: 40%;
+    margin-top: 67rem;
+    font-size: 50px;
 }
 
 .zeit_text {
     color: white;
-    font-size: large;
+    font-size: 30px;
 }
 
 .oeffnung-section {
@@ -383,8 +384,14 @@ section {
     font-size: 25px;
 }
 
-.footer_text_bottom {
+.impressum_ueberschrift {
+    color: #ffc93c;
+    margin-top: 3rem;
+    font-size: 40px;
+}
+.impressum_text {
     color: white;
+    font-size: 26px;
 }
 
 /* TEST NEUES MENU */
