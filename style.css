@@ -100,7 +100,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #515863;
+    background-color: rgb(77, 77, 77);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -256,8 +256,9 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-    background: rgb(53, 53, 53);
+    background: rgb(77, 77, 77);
     color: white;
+    font-size: 15px;
 }
 
 .btn-color-1:hover {
