@@ -901,6 +901,429 @@
         margin-top: 11rem;
     }
 }
+@media screen and (max-width: 414px), screen and (max-height: 860) {
+    #profile-section {
+        height: 83vh;
+        margin-bottom: 0;
+        display: flex;
+    }
+
+    .copyright{
+        font-size: 15px;
+        margin-top: 3rem;
+    }
+    .menu_section_box{
+        flex-direction: column;
+    }
+    .contact {
+        height: fit-content;
+        margin-bottom: 2rem;
+        margin: 0;
+    }
+    .section_text, .btn-container {
+        flex-wrap: wrap;
+    }
+    .nav-links li a {
+        font-size: 1rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .start_pic-container {
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+    }
+    .section_text {
+        font-size: 1.25rem;
+        text-align: justify;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title_profile {
+        font-size: 2rem;
+    }
+    .center_pic {
+        display: block;
+        width: 300px;
+        height: 300px;
+    }
+    .desktop_pic {
+        display: none;
+    }
+    .pizza_ueberschrift {
+        color: #ffc93c;
+        margin-top: 3%;
+    }
+    
+    .pizza {
+        color: white;
+        font-size: large;
+    }
+    
+    .pizza_last {
+        margin-bottom: 3%;
+        color: white;
+        font-size: large;
+    }
+    .menu_pizza {
+        text-align: center;
+        border-style: groove;
+        border-width: 3px;
+        border-radius: 15px;
+        border-color: #ffc93c;
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        flex: 1;
+    }
+    #team-section {
+        justify-content: center;
+        gap: 5rem;
+        height: 80vh;
+        min-height: 500px;
+        margin-bottom: -3rem;
+    }
+    .essen{
+        font-size: large;
+    }
+    .essen_last {
+        font-size: large;
+    }
+    .menu {
+        text-align: center;
+        border-style: groove;
+        border-width: 3px;
+        border-radius: 15px;
+        border-color: #ffc93c;
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+        margin-right: 2.5%;
+        flex: 1;
+    }
+    .extra_menu_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper_menu_extra {
+        flex-direction: column;
+        border-width: 3px;
+        width: 330px;
+        height: 170px;
+        grid-template-columns: 160px 120px;
+        grid-template-rows: 60px 60px;
+    }
+    .wrapper_wrapper {
+        display: grid;
+        flex-direction: column;
+        margin-right: 4%;
+    }
+    .extra {
+        color: white;
+        font-size: 20px;
+    }
+    .extras_ueberschrift {
+        color: #ffc93c;
+        text-align: center;
+        font-size: 50px;
+    }
+    .extra_ueber {
+        font-size: 20px;
+    }
+    .zeit_ueberschrift {
+        text-align: center;
+        color: #ffc93c;
+        font-size: xx-large;
+        margin-bottom: 2rem;
+        margin-top: 13rem;
+    }
+}
+@media screen and (max-width: 414px), screen and (max-height: 830) {
+    #profile-section {
+        height: 83vh;
+        margin-bottom: 0;
+        display: flex;
+    }
+
+    .copyright{
+        font-size: 15px;
+        margin-top: 3rem;
+    }
+    .menu_section_box{
+        flex-direction: column;
+    }
+    .contact {
+        height: fit-content;
+        margin-bottom: 2rem;
+        margin: 0;
+    }
+    .section_text, .btn-container {
+        flex-wrap: wrap;
+    }
+    .nav-links li a {
+        font-size: 1rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .start_pic-container {
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+    }
+    .section_text {
+        font-size: 1.25rem;
+        text-align: justify;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title_profile {
+        font-size: 2rem;
+    }
+    .center_pic {
+        display: block;
+        width: 300px;
+        height: 300px;
+    }
+    .desktop_pic {
+        display: none;
+    }
+    .pizza_ueberschrift {
+        color: #ffc93c;
+        margin-top: 3%;
+    }
+    
+    .pizza {
+        color: white;
+        font-size: large;
+    }
+    
+    .pizza_last {
+        margin-bottom: 3%;
+        color: white;
+        font-size: large;
+    }
+    .menu_pizza {
+        text-align: center;
+        border-style: groove;
+        border-width: 3px;
+        border-radius: 15px;
+        border-color: #ffc93c;
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        flex: 1;
+    }
+    #team-section {
+        justify-content: center;
+        gap: 5rem;
+        height: 80vh;
+        min-height: 500px;
+        margin-bottom: -3rem;
+    }
+    .essen{
+        font-size: large;
+    }
+    .essen_last {
+        font-size: large;
+    }
+    .menu {
+        text-align: center;
+        border-style: groove;
+        border-width: 3px;
+        border-radius: 15px;
+        border-color: #ffc93c;
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+        margin-right: 2.5%;
+        flex: 1;
+    }
+    .extra_menu_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper_menu_extra {
+        flex-direction: column;
+        border-width: 3px;
+        width: 330px;
+        height: 170px;
+        grid-template-columns: 160px 120px;
+        grid-template-rows: 60px 60px;
+    }
+    .wrapper_wrapper {
+        display: grid;
+        flex-direction: column;
+        margin-right: 4%;
+    }
+    .extra {
+        color: white;
+        font-size: 20px;
+    }
+    .extras_ueberschrift {
+        color: #ffc93c;
+        text-align: center;
+        font-size: 50px;
+    }
+    .extra_ueber {
+        font-size: 20px;
+    }
+    .zeit_ueberschrift {
+        text-align: center;
+        color: #ffc93c;
+        font-size: xx-large;
+        margin-bottom: 2rem;
+        margin-top: 15rem;
+    }
+}
+@media screen and (max-width: 414px), screen and (max-height: 777) {
+    #profile-section {
+        height: 83vh;
+        margin-bottom: 0;
+        display: flex;
+    }
+
+    .copyright{
+        font-size: 15px;
+        margin-top: 3rem;
+    }
+    .menu_section_box{
+        flex-direction: column;
+    }
+    .contact {
+        height: fit-content;
+        margin-bottom: 2rem;
+        margin: 0;
+    }
+    .section_text, .btn-container {
+        flex-wrap: wrap;
+    }
+    .nav-links li a {
+        font-size: 1rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .start_pic-container {
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+    }
+    .section_text {
+        font-size: 1.25rem;
+        text-align: justify;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title_profile {
+        font-size: 2rem;
+    }
+    .center_pic {
+        display: block;
+        width: 300px;
+        height: 300px;
+    }
+    .desktop_pic {
+        display: none;
+    }
+    .pizza_ueberschrift {
+        color: #ffc93c;
+        margin-top: 3%;
+    }
+    
+    .pizza {
+        color: white;
+        font-size: large;
+    }
+    
+    .pizza_last {
+        margin-bottom: 3%;
+        color: white;
+        font-size: large;
+    }
+    .menu_pizza {
+        text-align: center;
+        border-style: groove;
+        border-width: 3px;
+        border-radius: 15px;
+        border-color: #ffc93c;
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        flex: 1;
+    }
+    #team-section {
+        justify-content: center;
+        gap: 5rem;
+        height: 80vh;
+        min-height: 500px;
+        margin-bottom: -3rem;
+    }
+    .essen{
+        font-size: large;
+    }
+    .essen_last {
+        font-size: large;
+    }
+    .menu {
+        text-align: center;
+        border-style: groove;
+        border-width: 3px;
+        border-radius: 15px;
+        border-color: #ffc93c;
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+        margin-right: 2.5%;
+        flex: 1;
+    }
+    .extra_menu_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper_menu_extra {
+        flex-direction: column;
+        border-width: 3px;
+        width: 330px;
+        height: 170px;
+        grid-template-columns: 160px 120px;
+        grid-template-rows: 60px 60px;
+    }
+    .wrapper_wrapper {
+        display: grid;
+        flex-direction: column;
+        margin-right: 4%;
+    }
+    .extra {
+        color: white;
+        font-size: 20px;
+    }
+    .extras_ueberschrift {
+        color: #ffc93c;
+        text-align: center;
+        font-size: 50px;
+    }
+    .extra_ueber {
+        font-size: 20px;
+    }
+    .zeit_ueberschrift {
+        text-align: center;
+        color: #ffc93c;
+        font-size: xx-large;
+        margin-bottom: 2rem;
+        margin-top: 18rem;
+    }
+}
 @media screen and (max-width: 375px) {
     #profile-section {
         height: 83vh;
