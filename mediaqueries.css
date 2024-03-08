@@ -9,7 +9,7 @@
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
@@ -30,7 +30,12 @@
         margin-bottom: 0;
         display: flex;
     }
-
+    .menu-group-heading2 {
+        margin-top: 25rem;
+    }
+    .menu-group-heading3 {
+        margin-top: 50rem;
+    }
     .copyright{
         font-size: 15px;
         margin-top: 3rem;
@@ -162,7 +167,8 @@
         color: #ffc93c;
         font-size: xx-large;
         margin-bottom: 2rem;
-        margin-top: 19rem;
+        margin-top: 80rem;
+        font-size: 40px;
     }
     #oeffnungs-section {
         justify-content: center;
@@ -178,15 +184,6 @@
         justify-content: center;
     }
     
-    .zeit_ueberschrift {
-        text-align: center;
-        color: #ffc93c;
-        font-size: xx-large;
-        margin-bottom: 2rem;
-        margin-top: 25rem;
-        font-size: 40px;
-    }
-    
     .zeit_text {
         color: white;
         font-size: 25px;
@@ -198,12 +195,15 @@
 
     .footer_ueberschrift {
         color: #ffc93c;
-        margin-top: 7rem;
+        margin-top: 60rem;
         font-size: 40px;
+    }
+    .team-ueberschrift {
+        margin-top: 65rem;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1238px) {
 
     #desktop-nav {
         display: none;
@@ -224,6 +224,28 @@
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
+    }
+    .menu-group-heading2 {
+        margin-top: 5rem;
+    }
+    .menu-group-heading3 {
+        margin-top: 5rem;
+    }
+    .team-ueberschrift {
+        margin-top: 5rem;
+    }
+    .footer_ueberschrift {
+        color: #ffc93c;
+        margin-top: 8rem;
+        font-size: 40px;
+    }
+    .zeit_ueberschrift {
+        text-align: center;
+        color: #ffc93c;
+        font-size: xx-large;
+        margin-bottom: 2rem;
+        margin-top: 22rem;
+        font-size: 40px;
     }
 }
 
@@ -365,7 +387,8 @@
         color: #ffc93c;
         font-size: xx-large;
         margin-bottom: 2rem;
-        margin-top: 19rem;
+        margin-top: 30rem;
+        font-size: 40px;
     }
     #oeffnungs-section {
         justify-content: center;
@@ -379,15 +402,6 @@
         grid-template-columns: 80px 120px;
         grid-template-rows: 80px 80px;
         justify-content: center;
-    }
-    
-    .zeit_ueberschrift {
-        text-align: center;
-        color: #ffc93c;
-        font-size: xx-large;
-        margin-bottom: 2rem;
-        margin-top: 25rem;
-        font-size: 40px;
     }
     
     .zeit_text {
