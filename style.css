@@ -11,10 +11,12 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: #393e46;
+    height: -webkit-fill-available;
 }
 
 html {
     scroll-behavior: smooth;
+    height: -webkit-fill-available;
 }
 
 p {
@@ -322,13 +324,29 @@ section {
     line-height: 180%;
 }
 
+.wrapper_picture {
+    display: center;
+    margin-bottom: 1rem;
+}
+
+.team_wrapper {
+    margin-bottom: 2em !important;
+}
+
+.wrapper_zeit {
+    margin-bottom: 2em !important;
+}
+
+.wrapper_footer {
+    margin-bottom: 2em !important;
+}
+
 /* OPENING HOURS */
 
 #oeffnungs-section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
-    min-height: 500px;
 }
 
 .oeffnungszeiten {
