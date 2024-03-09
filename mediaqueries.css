@@ -697,6 +697,11 @@
         margin-top: -55%;
         }
 }
+@media screen and (max-width: 393px), screen and (max-height: 808) {    
+    .zeit_ueberschrift {
+        margin-top: 135%;
+    }
+}
 @media screen and (max-width: 393px), screen and (max-height: 786) {    
     #oeffnung-section{
         margin-top: -60%;
