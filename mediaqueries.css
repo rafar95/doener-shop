@@ -672,52 +672,52 @@
         margin-top: 18rem;
     }
 }
-@media screen and (max-width: 768px), screen and (max-height: 1024) {
+@media screen and (max-width: 768px) {
     #oeffnung-section{
         margin-top: -50%;
     }
 }
-@media screen and (max-width: 430px), screen and (max-height: 932) {
+@media screen and (max-width: 430px) {
     #oeffnung-section{
         margin-top: -20%;
     }
 }
-@media screen and (max-width: 414px), screen and (max-height: 896) {
+@media screen and (max-width: 414px) {
     #oeffnung-section{
         margin-top: -40%;
         }
 }
-@media screen and (max-width: 412px), screen and (max-height: 915) {
+@media screen and (max-width: 412px) {
     #oeffnung-section{
         margin-top: -90%;
     }
 }
-@media screen and (max-width: 411px), screen and (max-height: 731) {
+@media screen and (max-width: 411px) {
     #oeffnung-section{
         margin-top: -55%;
         }
 }
-@media screen and (max-width: 393px), screen and (max-height: 808) {    
+@media screen and (max-width: 393px) {    
     .zeit_ueberschrift {
         margin-top: 135%;
     }
 }
-@media screen and (max-width: 393px), screen and (max-height: 786) {    
+@media screen and (max-width: 393px) {    
     #oeffnung-section{
         margin-top: -60%;
         }
 }
-@media screen and (max-width: 390px), screen and (max-height: 844) {
+@media screen and (max-width: 390px) {
     #oeffnung-section{
         margin-top: -65%;
         }
 }
-@media screen and (max-width: 375px), screen and (max-height: 667) {
+@media screen and (max-width: 375px) {
     #oeffnung-section{
     margin-top: -30%;
     }
 }
-@media screen and (max-width: 360px), screen and (max-height: 740) {
+@media screen and (max-width: 360px) {
     #oeffnung-section{
         margin-top: -50%;
         }
