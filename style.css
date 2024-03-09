@@ -419,6 +419,10 @@ section {
   body {
     background: #333;
   }
+
+  #menu-section2 {
+    margin-top: 5%;
+  }
   
   .container {
     max-width: 1200px;
