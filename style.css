@@ -400,9 +400,12 @@ section {
 
 .impressum_ueberschrift {
     color: #ffc93c;
-    margin-top: 3rem;
-    font-size: 40px;
+    margin-top: 1rem;
+    font-size: 25px;
+    border-top: groove;
+    border-color: #ffc93c;
 }
+
 .impressum_text {
     color: white;
     font-size: 26px;
