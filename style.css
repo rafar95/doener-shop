@@ -345,6 +345,7 @@ section {
 
 #oeffnung-section {
     margin-top: 13%;
+    margin-bottom: 20%;
 }
 
 .oeffnungszeiten {
@@ -373,7 +374,6 @@ section {
 #footer-section {
     min-height: fit-content;
     margin-bottom: 1rem;
-    margin-top: 12%;
 }
 
 .ende {
