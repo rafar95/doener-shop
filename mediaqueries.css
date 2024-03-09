@@ -533,11 +533,11 @@
     }
     
     #oeffnung-section{
-        margin-top: 20%;
+        margin-top: 40%;
     }
 }
 @media screen and (max-width: 393px) {
     #oeffnung-section{
-        margin-top: 20%;
+        margin-top: 40%;
     }
 }
