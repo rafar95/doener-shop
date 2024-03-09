@@ -9,6 +9,12 @@
     }
 }
 @media screen and (max-width: 1440px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
@@ -240,6 +246,9 @@
         margin-top: 22rem;
         font-size: 40px;
     }
+    #oeffnung-section {
+        margin-top: -20%;
+    }
 }
 @media screen and (max-width: 900px) {
     #profile-section {
@@ -399,10 +408,6 @@
     .zeit_text {
         color: white;
         font-size: 25px;
-    }
-    
-    .oeffnung-section {
-        margin-bottom: 1rem;
     }
 
     .footer_ueberschrift {
