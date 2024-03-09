@@ -674,17 +674,17 @@
 }
 @media screen and (max-width: 768px), screen and (max-height: 1024) {
     #oeffnung-section{
-        margin-top: -25rem;
+        margin-top: -50%;
     }
 }
 @media screen and (max-width: 430px), screen and (max-height: 932) {
-    .zeit_ueberschrift{
-        margin-top: 30rem;
+    #oeffnung-section{
+        margin-top: -20%;
     }
 }
 @media screen and (max-width: 414px), screen and (max-height: 896) {
     #oeffnung-section{
-        margin-top: -22rem;
+        margin-top: -40%;
         }
 }
 @media screen and (max-width: 412px), screen and (max-height: 915) {
@@ -699,7 +699,7 @@
 }
 @media screen and (max-width: 393px), screen and (max-height: 786) {    
     #oeffnung-section{
-        margin-top: -30%;
+        margin-top: -60%;
         }
 }
 @media screen and (max-width: 390px), screen and (max-height: 844) {
