@@ -287,6 +287,7 @@ section {
 .text_team_section {
     color: white;
     font-size: 35px;
+    line-height: 45px;
 }
 
 #team-section {
@@ -343,7 +344,7 @@ section {
     color: #ffc93c;
     font-size: xx-large;
     margin-bottom: 2rem;
-    margin-top: 67rem;
+    margin-top: 70rem;
     font-size: 50px;
 }
 
@@ -376,7 +377,6 @@ section {
 
 .footer_ueberschrift {
     color: #ffc93c;
-    margin-top: 3rem;
     font-size: 50px;
 }
 
@@ -387,7 +387,7 @@ section {
 
 .impressum_ueberschrift {
     color: #ffc93c;
-    margin-top: 3rem;
+    margin-top: 50rem;
     font-size: 40px;
 }
 .impressum_text {
