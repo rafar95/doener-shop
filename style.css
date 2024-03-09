@@ -343,10 +343,8 @@ section {
 
 /* OPENING HOURS */
 
-#oeffnungs-section {
-    justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+#oeffnung-section {
+    margin-top: 10%;
 }
 
 .oeffnungszeiten {
