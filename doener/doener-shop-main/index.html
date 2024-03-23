@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chiccos_doener</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Chicco's</div>
+        <div class="desktop-nav-text">
+            <ul class="nav-links">
+                <li><a href="#menu-section">Menü</a></li>
+                <li><a href="#team-section">Unser Team</a></li>
+                <li><a href="#footer-section">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Chicco's</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#menu-section" onclick="toggleMenu()">Menü</a></li>
+                <li><a href="#team-section" onclick="toggleMenu()">Team</a></li>
+                <li><a href="#footer-section" onclick="toggleMenu()">Kontakt</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="start_pic-container">
+            <img src="./assets/d_bild_1-modified.png" alt="shopfront picture">
+        </div>
+        <div class="start_pic-container">
+            <img src="./assets/Kebab.png" alt="shopfront picture">
+        </div>
+        <div class="start_pic-container">
+          <img src="./assets/Kebab1.png" alt="shopfront picture">
+      </div>
+      <div class="start_pic-container">
+        <img src="./assets/Kebab2.png" alt="shopfront picture">
+      </div>
+      <div class="start_pic-container">
+        <img src="./assets/Kebab3.png" alt="shopfront picture">
+      </div>
+      <div class="start_pic-container">
+        <img src="./assets/Kebab4.png" alt="shopfront picture">
+      </div>
+      <div class="start_pic-container">
+        <img src="./assets/Kebab5.png" alt="shopfront picture">
+      </div>
+      <div class="start_pic-container">
+        <img src="./assets/Kebab6.png" alt="shopfront picture">
+      </div>
+      <div class="start_pic-container">
+        <img src="./assets/Kebab7.png" alt="shopfront picture">
+      </div>
+      <div class="start_pic-container">
+        <img src="./assets/Kebab8.png" alt="shopfront picture">
+      </div>
+        <div class="section_text">
+            <p class="section__text__p1">Herzlich willkommen bei</p>
+            <h1 class="title_profile">Chicco's</h1>
+            <p class="section__text__p2">Pizza & Kebap</p>
+            <p class="section__text__p3">and more</p>
+            <p class="section__text__p4">Komm als Fremder... Geh als Freund...</p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#menu-section'"
+                >Menü
+               </button>
+                 <button 
+                 class="btn btn-color-1" 
+                 onclick="location.href='./#oeffnung-section'"
+                 >Öffnungszeiten
+                </button>
+            </div>
+    </section>
+    <section id="menu-section">
+        <main class="container">
+            <div class="menu_new">
+              <h2 class="menu-group-heading">Speisekarte</h2>
+              <h1 class="pide_ueberschrift">Kebap Drehspieß</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Kebap im Brot</span>
+                      <span class="menu-item-price">6.00€</span>
+                    </h3>
+                    <p class="menu-item-desc">
+                      Nunc efficitur felis vel mi efficitur, sed molestie sem
+                      scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Kebap Dürum</span>
+                      <span class="menu-item-price">7.00€</span>
+                    </h3>
+                    <p class="menu-item-desc">
+                      Nunc efficitur felis vel mi efficitur, sed molestie sem
+                      scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Kebap Box</span>
+                        <span class="menu-item-price">7.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                  </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Kebap Teller</span>
+                        <span class="menu-item-price">9.90€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                </div>
+              </div>
+              <h1 class="pide_ueberschrift">Pide</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Pide mit Hackfleisch</span>
+                      <span class="menu-item-price">7.00€</span>
+                    </h3>
+                    <p class="menu-item-desc">
+                      Nunc efficitur felis vel mi efficitur, sed molestie sem
+                      scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Pide mit Käse</span>
+                        <span class="menu-item-price">6.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                  </div>
+              </div>
+              <h1 class="pide_ueberschrift">Lahmacun</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Lahmacun mit Salat</span>
+                      <span class="menu-item-price">6.00€</span>
+                    </h3>
+                    <p class="menu-item-desc">
+                      Nunc efficitur felis vel mi efficitur, sed molestie sem
+                      scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Lahmacun mit Kebapfleisch</span>
+                        <span class="menu-item-price">7.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                  </div>
+              </div>
+              <h1 class="pide_ueberschrift">Veggie/Vegan</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Falafel im Brot</span>
+                      <span class="menu-item-price">6.00€</span>
+                    </h3>
+                    <p class="menu-item-desc">
+                      Nunc efficitur felis vel mi efficitur, sed molestie sem
+                      scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Falafel Dürüm</span>
+                        <span class="menu-item-price">7.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Falafel Box</span>
+                        <span class="menu-item-price">7.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Falafel Teller</span>
+                        <span class="menu-item-price">9.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section id="menu-section2">
+        <main class="container">
+            <div class="menu_new">
+              <h2 class="menu-group-heading2">Pizza</h2>
+              <h1 class="pide_ueberschrift">Pizza Carne</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Kebap im Brot</span>
+                      <span class="menu-item-price">6.00€</span>
+                    </h3>
+                    <p class="menu-item-desc">
+                      Nunc efficitur felis vel mi efficitur, sed molestie sem
+                      scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Kebap Dürum</span>
+                      <span class="menu-item-price">7.00€</span>
+                    </h3>
+                    <p class="menu-item-desc">
+                      Nunc efficitur felis vel mi efficitur, sed molestie sem
+                      scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Kebap Box</span>
+                        <span class="menu-item-price">7.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                  </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Kebap Teller</span>
+                        <span class="menu-item-price">9.90€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Kebap Teller</span>
+                        <span class="menu-item-price">9.90€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Kebap Teller</span>
+                        <span class="menu-item-price">9.90€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                </div>
+              </div>
+              <h1 class="pide_ueberschrift">Pizza Vegetarisch</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Pide mit Hackfleisch</span>
+                      <span class="menu-item-price">7.00€</span>
+                    </h3>
+                    <p class="menu-item-desc">
+                      Nunc efficitur felis vel mi efficitur, sed molestie sem
+                      scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Pide mit Käse</span>
+                        <span class="menu-item-price">6.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Pide mit Käse</span>
+                        <span class="menu-item-price">6.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Pide mit Käse</span>
+                        <span class="menu-item-price">6.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                </div>
+            </div>
+              <h1 class="pide_ueberschrift">Pizza Pesce</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Lahmacun mit Salat</span>
+                      <span class="menu-item-price">6.00€</span>
+                    </h3>
+                    <p class="menu-item-desc">
+                      Nunc efficitur felis vel mi efficitur, sed molestie sem
+                      scelerisque.
+                    </p>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Lahmacun mit Kebapfleisch</span>
+                        <span class="menu-item-price">7.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Pide mit Käse</span>
+                        <span class="menu-item-price">6.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Pide mit Käse</span>
+                        <span class="menu-item-price">6.00€</span>
+                      </h3>
+                      <p class="menu-item-desc">
+                        Nunc efficitur felis vel mi efficitur, sed molestie sem
+                        scelerisque.
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </main>
+    </section>
+    <section id="menu-section3">
+        <main class="container">
+            <div class="menu_new">
+              <h2 class="menu-group-heading3">Extras & Getränke</h2>
+              <h1 class="pide_ueberschrift">Beilagen</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Extra Käse</span>
+                      <span class="menu-item-price">6.00€</span>
+                    </h3>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Extra Fleisch</span>
+                      <span class="menu-item-price">7.00€</span>
+                    </h3>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Pommes</span>
+                        <span class="menu-item-price">7.00€</span>
+                      </h3>
+                    </div>
+                </div>
+                </div>
+              <h1 class="pide_ueberschrift">Dessert</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Baklava</span>
+                      <span class="menu-item-price">7.00€</span>
+                    </h3>
+                  </div>
+                </div>
+            </div>
+              <h1 class="pide_ueberschrift">Getränke</h1>
+              <div class="menu-group">
+                <div class="menu-item">
+                  <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                      <span class="menu-item-name">Limonade</span>
+                      <span class="menu-item-price">3.00€</span>
+                    </h3>
+                  </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Wasser</span>
+                        <span class="menu-item-price">2.00€</span>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Bier</span>
+                        <span class="menu-item-price">3.00€</span>
+                      </h3>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-text">
+                      <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Kaffee</span>
+                        <span class="menu-item-price">2.50€</span>
+                      </h3>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </main>
+    </section>
+    <section id="team-section">
+      <div class="team_wrapper">
+        <div class="team">
+        <h1 class="team-ueberschrift">Unser Team</h1>
+        <br>
+        <p class="text_team_section">Wir sind Chicco's, ein Familienbetrieb, wo auch du dazu gehörst!</p>
+        <br>
+        <p class="text_team_section">Bei uns gibt es Speisen nach traditionellem türkischem Rezept von Baba Chicco</p>
+        <br>
+        <p class="text_team_section">Wir bereiten alle unsere Speisen jeden Tag frisch für euch zu. Natürlich backen wir auch unser Brot, Pide oder Pizza immer frisch.</p>
+        <br>
+        <div class="desktop_pic">
+            <img src="assets/shopfront_desktop.webp" alt="desktop_version" class="desktop_picture">
+        </div>
+        <div class="wrapper_picture">
+        <div class="team_pic">
+            <img src="assets/person.webp" alt="person_pic" class="center_pic">
+        </div>
+      </div>
+    </section>
+    <section id="oeffnung-section">
+      <div class="wrapper_zeit">
+        <h1 class="zeit_ueberschrift">Öffnungszeiten</h1>
+        <div class="oeffnungszeiten">
+            <div class="tage_container">
+                <p class="zeit_text">Mo.:</p>
+                <p class="zeit_text">Di.:</p>
+                <p class="zeit_text">Mi.:</p>
+                <p class="zeit_text">Do.:</p>
+                <p class="zeit_text">Fr.:</p>
+                <P class="zeit_text">Sa.:</P>
+                <p class="zeit_text">So.:</p>
+            </div>
+            <div class="zeit_container">
+                <p class="zeit_text">11:00-22:00</p>
+                <p class="zeit_text">11:00-22:00</p>
+                <p class="zeit_text">11:00-22:00</p>
+                <p class="zeit_text">11:00-22:00</p>
+                <p class="zeit_text">11:00-22:00</p>
+                <p class="zeit_text">12:00-22:00</p>
+                <p class="zeit_text">12:00-22:00</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer-section">
+      <div class="wrapper_footer">
+        <div class="contact">
+            <h1 class="footer_ueberschrift">Besucht uns gerne</h1>
+            <p class="footer_text">Ganghoferstraße 25</p>
+            <p class="footer_text">Direkt an der U-Bahn Schwanthalerhöhe!</p>
+         </div>
+         <div class="contact">
+          <h1 class="impressum_ueberschrift">Impressum</h1>
+          <p class="impressum_text">Chicco's Döner & Pizza</p>
+          <p class="impressum_text">Chicco Mustermann</p>
+          <p class="impressum_text">Ganghoferstraße 25</p>
+          <p class="impressum_text">80339 München</p>
+          <p class="impressum_text">015156557777</p>
+          <p class="impressum_text">muster.email@web.de</p>
+       </div>
+         <p class="copyright">Copyright &#169; 2024 Chicco's - Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

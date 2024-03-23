@@ -1,0 +1,539 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Poppins|Source+Sans+Pro|Montserrat:400,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #393e46;
+    height: -webkit-fill-available;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: -webkit-fill-available;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* TRANSITION */
+
+a, 
+.btn {
+    transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+nav, 
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #ffc93c;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: rgb(240, 145, 4);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(240, 145, 4);
+}
+
+.logo {
+    font-size: 4.5rem;
+    color: #ffc93c;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/* HAMBURGER MENU */
+
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color:#ffc93c;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgb(77, 77, 77);
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffc93c;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links.open {
+    max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+    transform: none;
+}
+
+.hamburger-icon span:first-child {
+    opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+    transform: none;
+}
+
+/* SECTIONS */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    min-height: 500px;
+}
+
+.start_pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.section_text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    font-size: 1.75rem;
+    text-align: center;
+    color: #ffc93c;
+}
+
+.section__text__p2 {
+    font-size: 1.75rem;
+    text-align: center;
+    color: #ffc93c;
+}
+
+.section__text__p3 {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ffc93c;
+}
+
+.section__text__p4 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ffc93c;
+}
+
+.title_profile {
+    font-size: 4rem;
+    text-align: center;
+    color: #ffc93c;
+}
+
+/* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* BUTTONS */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.btn {
+    font-weight: 600;
+    transform: all 300 ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-color-1, .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+    cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+    background: rgb(77, 77, 77);
+    color: white;
+    font-size: 15px;
+}
+
+.btn-color-1:hover {
+    background: rgb(0, 0, 0);
+}
+.btn-color-2 {
+    background: none;
+}
+
+.btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+    gap: 1rem;
+}
+
+/* TEAM SECTION */
+
+.team-ueberschrift {
+    font-size: 70px;
+    color: #ffc93c;
+    margin-bottom: 2.5rem;
+}
+
+.text_team_section {
+    color: white;
+    font-size: 35px;
+}
+
+#team-section {
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    min-height: 500px;
+    margin-bottom: -55rem;
+}
+
+.center_pic {
+    margin-top: 2rem;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+
+.desktop_pic {
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.team {
+    border-style: unset;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 180%;
+}
+
+.wrapper_picture {
+    display: center;
+    margin-bottom: 1rem;
+}
+
+.team_wrapper {
+    margin-bottom: 2em !important;
+}
+
+.wrapper_zeit {
+    margin-bottom: 2em !important;
+}
+
+.wrapper_footer {
+    margin-bottom: 2em !important;
+}
+
+/* OPENING HOURS */
+
+#oeffnung-section {
+    margin-top: 13%;
+    margin-bottom: 35%;
+}
+
+.oeffnungszeiten {
+    display: grid;
+    grid-template-columns: 100px 160px;
+    grid-template-rows: 80px 80px;
+    justify-content: center;
+}
+
+.zeit_ueberschrift {
+    text-align: center;
+    color: #ffc93c;
+    font-size: xx-large;
+    margin-bottom: 2rem;
+    margin-top: 67rem;
+    font-size: 50px;
+}
+
+.zeit_text {
+    color: white;
+    font-size: 30px;
+}
+
+/* FOOTER SECTION */
+
+#footer-section {
+    min-height: fit-content;
+    margin-bottom: 1rem;
+}
+
+.ende {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+
+.footer_ueberschrift {
+    color: #ffc93c;
+    margin-top: 3rem;
+    font-size: 50px;
+}
+
+.footer_text {
+    color: white;
+    font-size: 25px;
+}
+
+.impressum_ueberschrift {
+    color: #ffc93c;
+    margin-top: 1rem;
+    font-size: 25px;
+    border-top: groove;
+    border-color: #ffc93c;
+}
+
+.impressum_text {
+    color: white;
+    font-size: 26px;
+}
+
+/* TEST NEUES MENU */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", "Poppins", sans-serif;
+  }
+  body {
+    background: #333;
+  }
+
+  #menu-section2 {
+    margin-top: 8%;
+  }
+
+  #menu-section3 {
+    margin-top: 8%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+  
+  .menu_new {
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 4px solid #ccc;
+    margin-bottom: 3rem;
+    color: #ffc93c;
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .menu-group-heading2 {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 4px solid #ccc;
+    margin-bottom: 3rem;
+    color: #ffc93c;
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .menu-group-heading3 {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 4px solid #ccc;
+    margin-bottom: 3rem;
+    color: #ffc93c;
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .pide_ueberschrift {
+    color: #ffc93c;
+    font-size: 30px;
+  }
+
+  .menu-item-price {
+    color: white;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+    color: white;
+  }
+  
+  .menu-item-desc {
+    line-height: 1.6;
+    color: #929292;
+  }
+
+  @media screen and (min-width: 992px) {
+    .menu_new {
+      font-size: 16px;
+    }
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+  }
+
+  .copyright {
+    color: white;
+    font-size: 30px;
+    margin-left: 1rem;
+    text-align: center;
+  }
+  
